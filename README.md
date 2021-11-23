@@ -1,10 +1,8 @@
-# terraformForReact
 Approach taken:
   -- Using Dockerfile, create the image for a container that can define the standard environment and also expose port 3000 as per the question need
   -- Using Amazon ECS, achieve the orchestration of the containers that are formed with above dockerfile
   -- Keep the track of container images and tags using Amazon ECS
   -- Achive the standerdization, scalability, tracking and resusability (Infrastructure as Code) using Terraform
-
 
 This to be considered before the implementation:
   -- The user must have an AWS account with appropriate IAM policies attached
